@@ -1,11 +1,16 @@
 {
   "name": "tea-shop-ui",
+  "version": "1.0.0",
+  "description": "",
   "devDependencies": {
-    "webpack": "^2.0",
     "babel-core": "^6.0",
     "babel-loader": "^7.0",
     "babel-preset-env": "*",
-    "babel-preset-react": "*"
+    "babel-preset-react": "*",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^2.0"
   },
   "scripts": {
     "build": "webpack",

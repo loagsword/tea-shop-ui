@@ -1,9 +1,13 @@
+const path = require('path');
+
+
 module.exports = {
   "output": {
-    "filename": "[name].pack.js"
+    "filename": "[name].pack.js",
+    "path": path.resolve(__dirname, 'docs')
   },
   "entry": {
-    "index": "./index"
+    "index": "./src/index"
   },
   "module": {
     "rules": [
