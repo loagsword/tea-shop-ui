@@ -131,7 +131,7 @@ p {
 }
 
 .fern {
-    background: url('fern.svg') no-repeat;
+    background: url('assets/fern.svg') no-repeat;
     height: 50vh;
     width: 70%;
     position: absolute;
