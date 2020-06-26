@@ -1,6 +1,8 @@
 {
   "name": "tea-shop-ui",
   "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
   "description": "",
   "devDependencies": {
     "babel-core": "^6.0",
